@@ -1,0 +1,21 @@
+{
+  "name": "co-repl",
+  "version": "0.0.1",
+  "description": "Repl with yield",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"bin": {
+		"co-repl": "./index.js"
+	},
+  "keywords": [
+    "co"
+  ],
+  "author": "Uno Young <littlehaker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "~3.0.1",
+    "repl.history": "~0.1.1"
+  }
+}
