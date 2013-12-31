@@ -25,6 +25,7 @@ function start() {
     eval: coEval
   });
   require('repl.history')(repl, process.env.HOME + '/.node_history');
+  return repl;
 }
 
 if (!module.parent) {
